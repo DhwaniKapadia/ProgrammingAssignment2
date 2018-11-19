@@ -1,4 +1,9 @@
 
+# makeCacheMatrix creates a list containing a function to
+# set and get the value of the matrix
+# set and get the value of inverse of the matrix
+
+
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
     set <- function(y) {
